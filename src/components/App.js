@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Navbar from './globals/Navbar';
 import './App.css';
 
 class App extends Component {
