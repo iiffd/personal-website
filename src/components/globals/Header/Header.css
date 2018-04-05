@@ -1,0 +1,30 @@
+/*
+  ========================================
+  Header
+  ========================================
+*/
+.header {
+  background-color: #222;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  height: 200px;
+}
+.tagline {
+  padding: 66px 0 22px 0;
+  margin: 0;
+  text-align: right;
+  color: white;
+}
+.logo {
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+  color: white;
+  text-align: left;
+}

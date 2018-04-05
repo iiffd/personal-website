@@ -4,8 +4,21 @@
   ========================================
 */
 
+ul {
+  margin: 0;
+}
+
 .nav {
   text-align: right;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.navbar-text {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
 }
 .nav li {
   display: inline-block;
@@ -14,11 +27,4 @@
 }
 .nav li:last-child {
   margin-right: 0;
-}
-
-.nav {
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: .5px;
-  text-transform: uppercase;
 }
