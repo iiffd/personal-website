@@ -4,9 +4,12 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
-      <small>© Samuel Hong</small>
-      <Navbar navStyle=''/>
+    <footer className="footer">
+      <div className="footer-container">
+        <small>© Samuel Hong</small>
+        <Navbar navStyle='footer-nav'/>
+
+      </div>
     </footer>
   );
 }
