@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container">
         <h1 className="logo">Samuel<br />Hong</h1>
         <h3 className="tagline">My Portfolio Website</h3>
-        <Navbar />
+        <Navbar navStyle='nav'/>
       </div>
       <Hero />
     </header>

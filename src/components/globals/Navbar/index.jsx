@@ -1,9 +1,9 @@
 import React from 'react';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({navStyle}) => {
   return (
-    <nav className="nav">
+    <nav className={navStyle}>
         <ul>
           <li><a className="navbar-text" href="index.html">Home</a></li>
           <li><a className="navbar-text" href="about.html">About</a></li>
