@@ -10,7 +10,7 @@ const Home = () => {
       <div className="grid">
 
         <section className="col-1-3">
-          <a href="#">
+          <a className="grid-heading" href="#">
             <h5>Pacman Artifical Intelligence</h5>
             <img className="img-responsive" src={arcade} alt="arcade" />
           </a>
@@ -20,7 +20,7 @@ const Home = () => {
         </section>
 
         <section className="col-1-3">
-          <a href="#">
+          <a className="grid-heading" href="#">
             <h5>Machine Learning Applications</h5>
             <img className="img-responsive" src={robot} alt="robot-playing-piano" />
           </a>
@@ -30,7 +30,7 @@ const Home = () => {
         </section>
 
         <section className="col-1-3">
-          <a href="#">
+          <a className="grid-heading" href="#">
             <h5>Web Applications</h5>
             <img className="img-responsive" src={code} alt="late night code" />
           </a>
