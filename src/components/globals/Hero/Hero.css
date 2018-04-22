@@ -1,15 +1,18 @@
 .Hero {
+  background-image: url('cabin.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
   text-align: center;
-  height: 140px;
-  padding: 20px;
+  height: 400px;
   color: white;
 }
 
+/* Not currently in use. Want to incorperate later */
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
-
 .App-title {
   font-size: 1.5em;
 }
