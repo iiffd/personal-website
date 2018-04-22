@@ -6,6 +6,8 @@ import Header from './globals/Header';
 import Footer from './globals/Footer';
 import Home from './Home';
 import About from './About';
+import Contact from './Contact';
+import Projects from './Projects';
 import './App.css';
 
 class App extends Component {
@@ -15,7 +17,9 @@ class App extends Component {
         <div className="App">
           <Header />
           <Route exact path="/" component={Home} />
-          <Route path="/About" component={About} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/projects" component={Projects} />
           <Footer />
         </div>
       </Router>
