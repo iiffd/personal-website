@@ -4,12 +4,35 @@ import './Home.css';
 const Home = () => {
   return (
     <section className="row">
-      <ul>
-        <li>stuff</li>
-        <li>stuff</li>
-        <li>stuff</li>
-        <li>stuff</li>
-      </ul>
+      <div className="grid">
+
+        <section className="col-1-3">
+          <a href="#">
+            <h5>Pacman Artifical Intelligence</h5>
+          </a>
+          <p>
+            Pacman artificial intelligence learns through reinforcement learning.
+          </p>
+        </section>
+
+        <section className="col-1-3">
+          <a href="#">
+            <h5>Pacman Artifical Intelligence</h5>
+          </a>
+          <p>
+            Pacman artificial intelligence learns through reinforcement learning.
+          </p>
+        </section>
+
+        <section className="col-1-3">
+          <a href="#">
+            <h5>Pacman Artifical Intelligence</h5>
+          </a>
+          <p>
+            Pacman artificial intelligence learns through reinforcement learning.
+          </p>
+        </section>
+      </div>
     </section>
   );
 }
