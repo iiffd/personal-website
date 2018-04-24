@@ -7,7 +7,7 @@ const About = () => {
       <h5 className="section-title">Nice to meet you</h5>
       <p className="about-text">
         I'm Samuel, welcome to my website.
-        My site is built in React, which is great to work with.
+        I built my site in React, which I had a lot of fun working with.
         I'm a full stack developer, and as of late, have been working a lot with the MERN stack (i.e. Mongoose, Express.js, React.js, Node.js).
         In addition to web development, I'm a very enthusiastic machine learning hobbiest.
         In the projects section, you'll see that I've built several machine learning applications.
