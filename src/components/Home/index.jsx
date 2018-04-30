@@ -13,6 +13,9 @@ const Home = () => {
         <section className="col-1-3">
           <a className="grid-heading" href="#">
             <h5>Pacman Artifical Intelligence</h5>
+            <div className="overlay">
+              <div className="overlay-text">Hello</div>
+            </div>
             <img className="img-responsive" src={arcade} alt="arcade" />
           </a>
           <p>

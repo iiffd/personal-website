@@ -24,4 +24,31 @@
   text-decoration: none;
   font-size: 1.5em;
   color: #000;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: -200px;
+  bottom: 200px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+.grid-heading:hover .overlay {
+  opacity: .5;
+}
+.hover-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
