@@ -12,35 +12,35 @@ const Home = () => {
 
         <section className="col-1-3">
           <a className="grid-heading" href="#">
-            <h5>Pacman Artifical Intelligence</h5>
+            {/* <h5>Pacman Artifical Intelligence</h5> */}
             <div className="overlay">
               <div className="overlay-text">Hello</div>
             </div>
             <img className="img-responsive" src={arcade} alt="arcade" />
           </a>
-          <p>
+          {/* <p>
             Pacman artificial intelligence learns through reinforcement learning.
-          </p>
+          </p> */}
         </section>
 
         <section className="col-1-3">
           <a className="grid-heading" href="#">
-            <h5>Machine Learning Applications</h5>
+            {/* <h5>Machine Learning Applications</h5> */}
             <img className="img-responsive" src={robot} alt="robot-playing-piano" />
           </a>
-          <p>
+          {/* <p>
             Random face generator using Generative Adverserial Network. Simpsons script generator.
-          </p>
+          </p> */}
         </section>
 
         <section className="col-1-3">
           <a className="grid-heading" href="#">
-            <h5>Web Applications</h5>
+            {/* <h5>Web Applications</h5> */}
             <img className="img-responsive" src={code} alt="late night code" />
           </a>
-          <p>
+          {/* <p>
             Web applications for a diversity of purposes.
-          </p>
+          </p> */}
         </section>
       </div>
     </section>
