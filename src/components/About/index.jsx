@@ -1,23 +1,23 @@
 import React from 'react';
+import photo from './samuel.jpg'
 import './About.css';
 
 const About = () => {
   return (
     <section>
       <h5 className="section-title">Nice to meet you</h5>
-      <img src="./sam.jpg" />
+      <img src={photo} className="about-photo" alt="Samuel" />
       <p className="about-text">
-        I'm Samuel, welcome to my website, which I built in React.
-        I'm a full stack developer, and as of late, have been working a lot with React.js and Node.js.
+        I'm Samuel, welcome to my website.
+        I'm a full stack developer, and as of late, have been working a lot with React and Node.
+        In fact, I built this site in React.
         In addition to web development, I'm a very enthusiastic machine learning hobbiest.
-        In the projects section, you'll see that I've built several machine learning applications.
+        If you look at some of the projects in the home page, you'll see that I've built several machine learning applications.
         <br />
         <br /><strong>Fun Facts:</strong>
         <ul>
-          <li>It takes about 70 hours of driving to do a round trip from San Francisco to New York.</li>
-          <li>2500K is not enough money to do a round trip around the U.S.</li>
-          <li>Unless you take advantage of the hospitality of friends or sleep in the car.</li>
-          <li>An empty freeway is a thing of beauty.</li>
+          <li>I did a round trip from San Francisco to New York. It took me about 70 hours of driving.</li>
+          <li>I am a big fan of SpaceX. Very excited about the idea of humanity going to Mars.</li>
         </ul>
       </p>
     </section>
