@@ -8,7 +8,6 @@ const Navbar = ({navStyle}) => {
           <li><a className="navbar-text" href="/">Home</a></li>
           <li><a className="navbar-text" href="/about">About</a></li>
           <li><a className="navbar-text" href="/contact">Contact</a></li>
-          <li><a className="navbar-text" href="/projects">Projects</a></li>
         </ul>
     </nav>
   );
