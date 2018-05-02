@@ -1,36 +1,30 @@
 .row {
   padding: 66px 0 44px 0;
 }
-.grid,
-.col-1-3 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .col-1-3 {
   display: inline-block;
   vertical-align: top;
-  width: 30%;
+  width: 33%;
 }
 .grid {
   margin: auto;
   width: 80%;
 }
-.img-responsive {
+.img-tab {
   width: 340px;
   height: 240px;
   border-radius: 10px;
-}
-.grid-heading {
-  text-decoration: none;
-  font-size: 1.5em;
-  color: #000;
-  position: relative;
+  display: block;
 }
 
+/* Overlay effect */
+.img-container {
+  position: relative;
+}
 .overlay {
   position: absolute;
-  top: -200px;
-  bottom: 200px;
+  top: 0;
+  bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
@@ -39,7 +33,7 @@
   transition: .5s ease;
   background-color: white;
 }
-.grid-heading:hover .overlay {
+.img-container:hover .overlay {
   opacity: .5;
 }
 .hover-text {
