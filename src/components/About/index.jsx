@@ -1,5 +1,6 @@
 import React from 'react';
-import photo from './samuel.jpg'
+import photo from './samuel.jpg';
+import resume from './resume.pdf';
 import './About.css';
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
         </ul>
       </p>
       <p className="resume-button">
-        <a href="/resume.pdf" target="_blank">Download Resume</a>
+        <a href={resume} target="_blank">Download Resume</a>
       </p>
     </section>
   );
