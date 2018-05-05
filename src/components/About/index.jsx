@@ -20,6 +20,9 @@ const About = () => {
           <li>I am a big fan of SpaceX. Very excited about the idea of humanity going to Mars.</li>
         </ul>
       </p>
+      <p className="resume-button">
+        <a href="/resume.pdf" target="_blank">Download Resume</a>
+      </p>
     </section>
   );
 }
