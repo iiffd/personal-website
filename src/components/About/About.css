@@ -17,6 +17,7 @@
   margin-bottom: 4rem;
 }
 .resume-button a {
+  color: black;
   text-decoration: none;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
   padding: 0.6rem 1rem;
@@ -26,5 +27,6 @@
   transition-timing-function: cubic-bezier(0.4,0,0.2, 1);
 }
 .resume-button a:hover {
+  color: #0f71a1;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 4px 4px rgba(0,0,0,0.1);
 }
