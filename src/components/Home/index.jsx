@@ -35,7 +35,7 @@ const Home = () => {
         </section>
 
         <section className="col-1-3">
-          <a className="img-container-link" href="#">
+          <a className="img-container-link" href="/projects/rhymedoctor">
             <img className="img-tab" src={code} alt="late night code" />
             <div className="overlay background-color-3">
               <div className="overlay-text text-color-white">Web Applications</div>

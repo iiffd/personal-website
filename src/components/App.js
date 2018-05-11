@@ -7,7 +7,7 @@ import Footer from './globals/Footer';
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
-import Projects from './Projects';
+import RhymeDoctor from './Projects/RhymeDoctor';
 import './App.css';
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/projects" component={Projects} />
+          <Route path="/projects/rhymedoctor" component={RhymeDoctor} />
           <Footer />
         </div>
       </Router>
