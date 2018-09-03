@@ -9,12 +9,13 @@ const Home = () => {
   return (
     <section className="row">
       <div className="grid">
-
         <section className="col-1-3">
           <a className="img-container-link" href="#">
             <img className="img-tab" src={arcade} alt="arcade" />
             <div className="overlay background-color-1">
-              <div className="overlay-text text-color-white">Pacman Artificial Intelligence</div>
+              <div className="overlay-text text-color-white">
+                Pacman Artificial Intelligence
+              </div>
             </div>
           </a>
           {/* <p>
@@ -26,7 +27,9 @@ const Home = () => {
           <a className="img-container-link" href="#">
             <img className="img-tab" src={robot} alt="robot-playing-piano" />
             <div className="overlay background-color-2">
-              <div className="overlay-text text-color-black">Machine Learning Applications</div>
+              <div className="overlay-text text-color-black">
+                Machine Learning Applications
+              </div>
             </div>
           </a>
           {/* <p>
@@ -38,7 +41,9 @@ const Home = () => {
           <a className="img-container-link" href="/projects/rhymedoctor">
             <img className="img-tab" src={code} alt="late night code" />
             <div className="overlay background-color-3">
-              <div className="overlay-text text-color-white">Web Applications</div>
+              <div className="overlay-text text-color-white">
+                Web Applications
+              </div>
             </div>
           </a>
           {/* <p>
@@ -48,6 +53,6 @@ const Home = () => {
       </div>
     </section>
   );
-}
+};
 
 export default Home;

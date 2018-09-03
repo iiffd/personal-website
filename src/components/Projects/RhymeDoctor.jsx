@@ -9,6 +9,6 @@ const RhymeDoctor = () => {
       <p>A description of the rhyme doctor app.</p>
     </section>
   );
-}
+};
 
 export default RhymeDoctor;

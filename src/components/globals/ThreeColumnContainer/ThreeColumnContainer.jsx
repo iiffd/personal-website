@@ -1,7 +1,6 @@
 import React from 'react';
-import './Navbar.css';
 
-const Navbar = ({ navStyle }) => {
+const ThreeColumnContainer = ({ navStyle }) => {
   return (
     <nav className={navStyle}>
       <ul>
@@ -25,4 +24,4 @@ const Navbar = ({ navStyle }) => {
   );
 };
 
-export default Navbar;
+export default ThreeColumnContainer;

@@ -7,11 +7,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <small>© Samuel Hong</small>
-        <Navbar navStyle='footer-nav'/>
-
+        <Navbar navStyle="footer-nav" />
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
